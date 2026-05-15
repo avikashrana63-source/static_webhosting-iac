@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avikash Rana | DevOps Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="container nav-wrapper">
+      <a href="#home" class="logo">⚡ Avikash Rana</a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" data-view="main">Home</a></li>
+        <li><a href="#about" data-view="main">About</a></li>
+        <li><a href="#skills" data-view="skills">Skills</a></li>
+        <li><a href="#projects" data-view="projects">Projects</a></li>
+        <li><a href="#contact" data-view="contact">Contact</a></li>
+      </ul>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </nav>
+
+  <section class="hero page-section main-section" id="home">
+    <div class="container hero-content">
+      <span class="hero-badge">Cloud • DevOps • Automation</span>
+      <h1>Hi, I'm Avikash Rana</h1>
+      <p>Cloud & DevOps Enthusiast focused on AWS, Linux, Docker, Kubernetes, Terraform, Ansible, Jenkins and CI/CD automation.</p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary" data-view="projects">View Projects</a>
+        <a href="#contact" class="btn btn-secondary" data-view="contact">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about section page-section main-section" id="about">
+    <div class="container">
+      <div class="section-title">
+        <span>About</span>
+        <h2>About Me</h2>
+      </div>
+
+        <div class="about-text">
+          <h3>Aspiring DevOps Engineer</h3>
+          <p>
+            Hi, I’m <strong>Avikash Rana</strong>, an aspiring DevOps Engineer with a strong interest in cloud computing, automation, server management, and CI/CD practices. I completed my graduation from <a href="https://www.spumandi.ac.in/" target="_blank" class="text-link"><strong>Sardar Patel University Mandi</strong></a> in 2025 with a CGPA of <strong>7.38</strong>.
+          </p>
+          <p>
+            Currently, I am gaining hands-on experience during my training period at <a href="https://cssoftsolutions.com/" target="_blank" class="text-link"><strong>CS Soft Solutions</strong></a>, where I am learning DevOps technologies and modern infrastructure practices in a professional company environment. I am also pursuing a <a href="https://www.udemy.com/" target="_blank" class="text-link"><strong>6-month AI DevOps course from Udemy</strong></a> to strengthen my skills in automation, cloud platforms, DevOps tools, and AI-integrated workflows.
+          </p>
+
+          <div class="profile-links">
+            <a href="https://www.linkedin.com/in/avikash-rana-389694383" target="_blank" class="linkedin-btn">🔗 LinkedIn Profile</a>
+          </div>
+
+          <div class="about-highlights">
+            <div>
+              <h4>🎯 Mission</h4>
+              <p>Build strong hands-on DevOps skills through real-world projects.</p>
+            </div>
+            <div>
+              <h4>🚀 Vision</h4>
+              <p>Become a skilled DevOps Engineer creating scalable and reliable systems.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills section page-section view-section" id="skills">
+    <div class="container">
+      <div class="section-title">
+        <span>Expertise</span>
+        <h2>Skills & Expertise</h2>
+      </div>
+
+      <div class="skill-filter">
+        <button class="filter-btn active" data-filter="all">All Skills</button>
+        <button class="filter-btn" data-filter="cloud">Cloud</button>
+        <button class="filter-btn" data-filter="cicd">CI/CD</button>
+        <button class="filter-btn" data-filter="container">Containers</button>
+        <button class="filter-btn" data-filter="iac">IaC</button>
+        <button class="filter-btn" data-filter="linux">Linux</button>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card" data-category="linux">
+          <div class="skill-icon">🐧</div>
+          <h3>Linux Expertise</h3>
+          <p>Linux Administration, Commands, User Management, SSH, Networking, Package Management and Server Troubleshooting.</p>
+        </div>
+
+        <div class="skill-card" data-category="cloud">
+          <div class="skill-icon">☁️</div>
+          <h3>AWS Cloud</h3>
+          <p>EC2, S3, IAM, VPC, CloudFront, Lambda, CloudWatch and cloud infrastructure basics.</p>
+        </div>
+
+        <div class="skill-card" data-category="container">
+          <div class="skill-icon">🐳</div>
+          <h3>Docker</h3>
+          <p>Docker Images, Containers, Dockerfile, Docker Compose, Port Mapping and Container Deployment.</p>
+        </div>
+
+        <div class="skill-card" data-category="container">
+          <div class="skill-icon">📦</div>
+          <h3>Kubernetes</h3>
+          <p>Pods, Deployments, Services, Scaling, YAML Manifests and Container Orchestration fundamentals.</p>
+        </div>
+
+        <div class="skill-card" data-category="cicd">
+          <div class="skill-icon">⚙️</div>
+          <h3>Jenkins CI/CD</h3>
+          <p>Jenkins Pipelines, Build Automation, Webhooks, GitHub Integration and Deployment Automation.</p>
+        </div>
+
+        <div class="skill-card" data-category="cicd">
+          <div class="skill-icon">🐙</div>
+          <h3>Git & GitHub</h3>
+          <p>Git Commands, Branching, Pull Requests, GitHub Repositories and Source Code Management.</p>
+        </div>
+
+        <div class="skill-card" data-category="iac">
+          <div class="skill-icon">🏗️</div>
+          <h3>Terraform</h3>
+          <p>Infrastructure as Code, AWS Resource Provisioning, Variables, Outputs and Terraform State.</p>
+        </div>
+
+        <div class="skill-card" data-category="iac">
+          <div class="skill-icon">🔧</div>
+          <h3>Ansible</h3>
+          <p>Configuration Management, Playbooks, Inventory, Automation Tasks and Server Setup Automation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects section page-section view-section" id="projects">
+    <div class="container">
+      <div class="section-title">
+        <span>Work</span>
+        <h2>Projects</h2>
+      </div>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>AWS Static Website Hosting</h3>
+          <p>Hosted a static website using AWS S3, CloudFront and Terraform infrastructure setup.</p>
+        </div>
+
+        <div class="project-card">
+          <h3>CI/CD Pipeline</h3>
+          <p>Automated build and deployment workflow using Jenkins, GitHub and Docker.</p>
+        </div>
+
+        <div class="project-card">
+          <h3>File Upload Notification System</h3>
+          <p>Created an AWS S3 upload notification workflow using Lambda, SNS, IAM and CloudWatch.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact section page-section view-section" id="contact">
+    <div class="container">
+      <div class="section-title">
+        <span>Contact</span>
+        <h2>Get In Touch</h2>
+      </div>
+
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Avikash Rana | DevOps Portfolio</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
